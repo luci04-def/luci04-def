@@ -1,30 +1,34 @@
-<!-- Unique GitHub Profile README for luci04-def -->
+<!-- Clean & Futuristic GitHub Profile README for luci04-def -->
 
-<h1 align="center"> Sukant (luci04-def) </h1>
+<!-- Top Banner with Wave Animation + Fixed Name -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:333399,100:ff00cc&height=200&section=header&text=SUKANT%20(luci04-def)&fontSize=50&fontAlignY=35&fontColor=ffffff&font=Orbitron" />
+</p>
 
+<!-- Animated Typing Intro -->
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Aspiring+Engineer+%7C+Robotics+%7C+IoT;Love+Hardware+%26+Building+Things;Always+Learning+New+Technologies+🚀">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=Aspiring+Engineer+|+Robotics+|+IoT;Passionate+about+Hardware+and+Coding;Always+Learning+New+Technologies">
 </h3>
 
 ---
 
-##  About Me  
--  **B.E CSE Student (Graduating 2027)**  
--  Passionate about **Robotics, IoT, AI, Hardware**  
--  Interested in **Japan opportunities**  
--  “I like to work with components more than writing theory”  
+## About Me  
+- B.E CSE Student (Graduating 2027)  
+- Interested in Robotics, IoT, AI, and Hardware projects  
+- Exploring opportunities in Japan  
+- Prefer building practical systems over just writing theory  
 
 ---
 
-##  Tech Stack  
+## Tech Stack  
 
-**Languages**  
+**Languages & Frameworks**  
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![C](https://img.shields.io/badge/-C-00599C?logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white)
 
 **Tools & Platforms**  
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
@@ -36,7 +40,7 @@
 
 ---
 
-##  Featured Projects  
+## Featured Projects  
 
 | Project | Description | Link |
 |---|---|---|
@@ -48,20 +52,20 @@
 
 ---
 
-##  GitHub Stats  
+## GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=luci04-def&show_icons=true&theme=tokyonight" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=luci04-def&theme=tokyonight" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=luci04-def&show_icons=true&theme=radical" height="180" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=luci04-def&theme=radical" height="180" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=luci04-def&theme=dracula&no-frame=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=luci04-def&theme=darkhub&no-frame=true&row=1&column=7" />
 </p>
 
 ---
 
-##  Contribution Snake Animation  
+## Contribution Snake Animation  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/luci04-def/luci04-def/output/github-contribution-grid-snake.svg" alt="snake animation" />
@@ -69,12 +73,19 @@
 
 ---
 
-##  Connect with Me  
+## Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)  
-[![Portfolio](https://img.shields.io/badge/Website-Portfolio-green?logo=website&logoColor=white)](https://yourportfolio.com)  
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/yourprofile)  
+<p align="center">
+  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" height="30"></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Website-Portfolio-green?logo=website&logoColor=white" height="30"></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://instagram.com/yourprofile"><img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white" height="30"></a>
+</p>
 
 ---
 
- From [Sukant](https://github.com/luci04-def)
+<!-- Footer Wave Animation -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00cc,100:333399&height=100&section=footer"/>
+</p>
