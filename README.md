@@ -64,11 +64,11 @@
 </p>
 
 ---
-
+  
 ## Contribution Snake Animation  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/luci04-def/luci04-def/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/luci04-def/luci04-def/output/github-contribution-grid-snake-rainbow.svg" alt="rainbow snake animation" />
 </p>
 
 ---
