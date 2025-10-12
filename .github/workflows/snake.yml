@@ -16,7 +16,8 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: luci04-def
-          outputs: dist/github-contribution-grid-snake-rainbow.svg?color_snake=rainbow
+          outputs: |
+            dist/github-contribution-grid-snake-rainbow.svg?color_snake=rainbow
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
