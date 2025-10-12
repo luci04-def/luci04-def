@@ -24,8 +24,11 @@ jobs:
           cp dist/*.svg output/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout main
+          git pull origin main
           git add output/*.svg
           git commit -m "Generated rainbow snake animation" || echo "No changes to commit"
-          git push
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
