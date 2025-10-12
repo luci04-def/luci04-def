@@ -1,4 +1,4 @@
-name: Generate Rainbow Snake Animation
+name: Generate Futuristic Snake Animation
 
 on:
   schedule:
@@ -12,14 +12,12 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Snake (Rainbow)
+      - name: Generate Snake (Futuristic)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: luci04-def
           outputs: |
-            dist/github-contribution-grid-snake-rainbow.svg
-        env:
-          COLOR_SNAKE: "rainbow"
+            dist/github-contribution-grid-snake-futuristic.svg?color_snake=00f7ff,ff00cc,7a00ff
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
