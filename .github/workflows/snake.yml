@@ -17,7 +17,9 @@ jobs:
         with:
           github_user_name: luci04-def
           outputs: |
-            dist/github-contribution-grid-snake-rainbow.svg?color_snake=rainbow
+            dist/github-contribution-grid-snake-rainbow.svg
+        env:
+          COLOR_SNAKE: "rainbow"
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
