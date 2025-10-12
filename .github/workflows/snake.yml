@@ -12,17 +12,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Snake
+      - name: Generate Snake (Rainbow)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: luci04-def
-          outputs: |
-            dist/github-contribution-grid-snake-rainbow.svg?color_snake=rainbow
+          outputs: dist/github-contribution-grid-snake-rainbow.svg?color_snake=rainbow
 
-      - name: Push Snake to Output Branch
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: "GitHub Actions"
-          author_email: "actions@github.com"
-          message: "Generated rainbow snake animation"
-          add: "dist/*.svg"
+      - name: Commit and Push snake
+        run: |
+          mkdir -p output
+          cp dist/*.svg output/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/*.svg
+          git commit -m "Generated rainbow snake animation" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
