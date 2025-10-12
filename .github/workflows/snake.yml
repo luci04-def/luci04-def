@@ -1,0 +1,28 @@
+name: Generate Rainbow Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # Runs daily at midnight UTC
+  workflow_dispatch:      # Allow manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: luci04-def
+          outputs: |
+            dist/github-contribution-grid-snake-rainbow.svg?color_snake=rainbow
+
+      - name: Push Snake to Output Branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: "GitHub Actions"
+          author_email: "actions@github.com"
+          message: "Generated rainbow snake animation"
+          add: "dist/*.svg"
