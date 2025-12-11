@@ -52,16 +52,16 @@
 
 ---
 
-## GitHub Stats  
+<!-- ## GitHub Stats  -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=luci04-def&show_icons=true&theme=radical" height="180" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=luci04-def&theme=radical" height="180" />
 </p>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=luci04-def&theme=darkhub&no-frame=true&row=1&column=7" />
-</p>
+</p> -->
 
 ---
 
