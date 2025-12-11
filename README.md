@@ -77,7 +77,7 @@
 ## Connect with Me  
 
 <p align="center">
-  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" height="30"></a>
+  <a href="https://www.linkedin.com/in/b-sukant-suki/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" height="30"></a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Website-Portfolio-green?logo=website&logoColor=white" height="30"></a>
   &nbsp;&nbsp;&nbsp;
